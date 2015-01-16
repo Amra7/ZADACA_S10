@@ -16,3 +16,12 @@ Zadaca Emir/generics
 2. Napraviti collection util metodu koja vraca najveci element iz kolekcije. Obratiti paznju kako treba parametrizirati metodu - new moze svaki E.
 3. Doraditi CSVBuilder klasu da je u stanju primiti null i stringove koji imaju zarez.
 
+
+Zadaca Benjo/TreeStackAndQueue
+
+Skloniste za pse I macke radi isklucivo na "prvi dosao, prvi usvojen" principu. Osoba koja zeli da usvoju
+zivotinju ima pravo da bira koji vrstu zivotinje hoce (psa ili macku) u tom slucaju ce dobiti zivotinju tog 
+tipa koja je prva dosla u skloniste. Ako osoba koja usvaja zivotinju ne navede koji vrstu zivotinje koju 
+hoce da usvoju dobice zivotinju koja je najduze u sklonistu. Napisite strukturu podataka koja ce pomoci 
+pri odrzavanju ovog sistema, potrebno je da implementirate metode: enqueue, dequeueAny, 
+dequeueCat, dequeueDog.
