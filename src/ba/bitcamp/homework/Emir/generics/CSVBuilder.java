@@ -4,6 +4,9 @@ public class CSVBuilder {
 
 String res;
 	
+/*
+ * Zadatak  2
+ */
 	/**
 	 * Appends provided string to existing CSV line.
 	 * 
@@ -12,6 +15,11 @@ String res;
 	 * @throws NullPointerException in case provided object is null
 	 */
 	public CSVBuilder append(String str) {
+		if(str == null)
+			str= "";
+		if( str.contains(","))
+			str = "\"" + str + "\"";
+		
 		if (res != null) {
 			res = res.concat(",").concat(str);
 		} else {
